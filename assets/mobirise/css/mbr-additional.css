@@ -1711,6 +1711,10 @@ body {
 .cid-rhB465fVC8 .card {
   padding-bottom: 1.5rem;
 }
+.cid-rhB465fVC8 .mbr-text,
+.cid-rhB465fVC8 .mbr-section-btn B {
+  color: #ffffff;
+}
 .cid-rhB9SG7nF3 {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2030,14 +2034,13 @@ body {
 .cid-rhBGdgxek8 {
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #149dcc;
-  background: linear-gradient(#149dcc, #efefef);
+  background-color: #ffffff;
 }
 .cid-rhBGdgxek8 .carousel-control {
   background: #000;
 }
 .cid-rhBGdgxek8 .mbr-section-subtitle {
-  color: #ffffff;
+  color: #232323;
 }
 .cid-rhBGdgxek8 .carousel-item {
   -webkit-justify-content: center;
@@ -2233,7 +2236,7 @@ body {
   }
 }
 .cid-rhBGdgxek8 H2 {
-  color: #ffffff;
+  color: #232323;
 }
 .cid-rhCp8xPuyx {
   padding-top: 90px;
