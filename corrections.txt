@@ -1,0 +1,8 @@
+1. ICONS HOME PAGE
+Before : <span class="mbr-iconfont mbri-setting"></span> 
+After:  <span class=" "><img src="hd.png"></span>
+
+
+2. GIFT ICON
+Before : <span class="mbr-iconfont pr-2 mbri-gift"></span>
+after: <span class=""><img src="medal.png"></span>
