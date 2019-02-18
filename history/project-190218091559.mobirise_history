@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DND PLOUGH",
-    "currentPage": "index.html",
+    "currentPage": "Mechanical Products.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
     "path": "@PROJECT_PATH@",
     "versionFirst": "4.9.1",
     "siteFonts": [],
-    "snow": "on",
+    "snow": "",
     "uniqCompNum": 152,
     "versionPublish": "4.9.3",
     "screenshot": "screenshot.png",
@@ -53,9 +53,7 @@
     "sitemapSwitcher": "on",
     "header_custom": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-134203095-1\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-134203095-1');\n</script>\n\n",
     "gdpr": "",
-    "сanonical-url": "",
-    "publishType": "local",
-    "publishPath": "file:///E:/DND%20PLOUGH/dndplough%20local"
+    "сanonical-url": ""
   },
   "pages": {
     "index.html": {
