@@ -6,8 +6,3 @@ After:  <span class=" "><img src="hd.png"></span>
 2. GIFT ICON
 Before : <span class="mbr-iconfont pr-2 mbri-gift"></span>
 after: <span class=""><img src="medal.png"></span>
-
-
-
-<span> <a href="MECH 45 HP.html"> 
-</a></span>
