@@ -6,3 +6,133 @@ After:  <span class=" "><img src="hd.png"></span>
 2. GIFT ICON
 Before : <span class="mbr-iconfont pr-2 mbri-gift"></span>
 after: <span class=""><img src="medal.png"></span>
+
+--------------------------------------------
+<span> <a href="MECH 45 HP.html">
+
+</a></span>
+
+-------------------------------------------
+
+    <section class="features15 cid-rpzITGDRes" id="features15-49">
+        <div class="container">
+            <h2 class="mbr-section-title pb-3 align-center mbr-fonts-style display-2">Our Products</h2>
+            <h3 class="mbr-section-subtitle display-5 align-center mbr-fonts-style">Choose from a wide variety of agricultural plough shafts and accessories.&nbsp;</h3>
+            <div class="media-container-row container pt-5 mt-2">
+                <div class="col-12 col-md-6 mb-4 col-lg-4">
+                    <span> <a href="MECH 45 HP.html">
+                            <div class="card flip-card p-5 align-center">
+                                <div class="card-front card_cont">
+                                    <img src="assets/images/12334-660x660.jpg" alt="DND PLOUGH" title="DND PLOUGH">
+                                </div>
+                                <div class="card_back card_cont">
+                                    <h4 class="card-title display-5 py-2 mbr-fonts-style">
+                                        <p>&nbsp; &nbsp; Mechanical<br><span style="color: inherit; font-size: 1.5rem;">45 HP&nbsp;</span></p>
+                                    </h4>
+                                    <p class="mbr-text mbr-fonts-style display-7">- 38 vivid products.<br>- Suitable for 45 HP hauling &nbsp; &nbsp; &nbsp; &nbsp;capacity.<br><br><br></p>
+                                </div>
+                            </div>
+                        </a></span>
+                </div>
+                <div class="col-12 col-md-6 mb-4 col-lg-4">
+                    <span> <a href="MEDIUM 35 HP.html">
+                    <div class="card flip-card p-5 align-center">
+                        <div class="card-front card_cont">
+                            <img src="assets/images/123456677777777777777-660x660.jpg" alt="DND PLOUGH" title="DND PLOUGH">
+                        </div>
+                        <div class="card_back card_cont">
+                            <h4 class="card-title py-2 mbr-fonts-style display-5">MECHANICAL<br>35 HP</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">- 03 &nbsp;vivid products.
+                                <br>- Suitable for 35 HP hauling capacity.
+                                <br>
+                                <br></p>
+                        </div>
+                    </div>
+                    </a></span>
+                </div>
+                <div class="col-12 col-md-6 mb-4 col-lg-4">
+                    <span> <a href="MINI 25 HP.html">
+                    <div class="card flip-card p-5 align-center">
+                        <div class="card-front card_cont">
+                            <img src="assets/images/2-660x660.jpg" alt="DND PLOUGH" title="DND PLOUGH">
+                        </div>
+                        <div class="card_back card_cont">
+                            <h4 class="card-title py-2 mbr-fonts-style display-5">MECHANICAL MINI<br> 25 HP</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">- 14 vivid products.
+                                <br>- Suitable for 25 HP hauling capacity. &nbsp;<br></p>
+                        </div>
+                    </div>
+                    </a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features15 cid-rpAlisPP7S" id="features15-4i">
+        <div class="container">
+            <div class="media-container-row container pt-5 mt-2">
+                <div class="col-12 col-md-6 mb-4 col-lg-4">
+                    <span> <a href="HYDRAULIC COMPLETE FABRICATION.html">
+                    <div class="card flip-card p-5 align-center">
+                        <div class="card-front card_cont">
+                            <img src="assets/images/4444-900x900.jpg" alt="DND PLOUGH" title="DND PLOUGH">
+                        </div>
+                        <div class="card_back card_cont">
+                            <h4 class="card-title display-5 py-2 mbr-fonts-style">HYDRAULIC COMPLETE FABRICATION</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">- 03 vivid products.
+                                <br>- Suitable for 35, 45, 55 HP hauling capacity. &nbsp;</p>
+                        </div>
+                    </div>
+                    </a></span>
+                </div>
+                <div class="col-12 col-md-6 mb-4 col-lg-4">
+                    <span> <a href="Slow Mechanical Products.html">
+                    <div class="card flip-card p-5 align-center">
+                        <div class="card-front card_cont">
+                            <img src="assets/images/1-660x660.jpg" alt="DND PLOUGH" title="DND PLOUGH">
+                        </div>
+                        <div class="card_back card_cont">
+                            <h4 class="card-title py-2 mbr-fonts-style display-5">SLOW MECHANICAL</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">- 17 vivid products.
+                                <br>- Suitable for &nbsp;45 HP hauling capacity. &nbsp;</p>
+                        </div>
+                    </div>
+                    </a></span>
+                </div>
+                <div class="col-12 col-md-6 mb-4 col-lg-4">
+                    <span> <a href="Hydraulic Shafts.html">
+                    <div class="card flip-card p-5 align-center">
+                        <div class="card-front card_cont">
+                            <img src="assets/images/333-660x660.jpg" alt="DND PLOUGH" title="DND PLOUGH">
+                        </div>
+                        <div class="card_back card_cont">
+                            <h4 class="card-title py-2 mbr-fonts-style display-5">
+                                HYDRAULIC SHAFTS</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">- 06 vivid products.
+                                <br>- Suitable for 45, 55 HP hauling capacity. &nbsp;</p>
+                        </div>
+                    </div>
+                    </a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="features15 cid-rpAljxgxay" id="features15-4j">
+        <div class="container">
+            <div class="media-container-row container pt-5 mt-2">
+                <div class="col-12 col-md-6 mb-4">
+                    <span> <a href="hydraulic accessories.html">
+                    <div class="card flip-card p-5 align-center">
+                        <div class="card-front card_cont">
+                            <img src="assets/images/pin-501x291.jpg" alt="DND PLOUGH" title="DND PLOUGH">
+                        </div>
+                        <div class="card_back card_cont">
+                            <h4 class="card-title display-5 py-2 mbr-fonts-style">HYDRAULIC ACCESSORIES</h4>
+                            <p class="mbr-text mbr-fonts-style display-7">- 10 vivid products.
+                                <br>- Suitable for 35, 45, 55 HP hauling capacity. &nbsp;</p>
+                        </div>
+                    </div>
+                    </a></span>
+                </div>
+            </div>
+        </div>
+    </section>
