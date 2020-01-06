@@ -1,15 +1,12 @@
-
-
-
-GIFT ICON
+1. GIFT ICON
 Before : <span class="mbr-iconfont pr-2 mbri-gift"></span>
 after: <span class=""><img src="medal.png"></span>
 
 =================================================================
 REDUNDANT PAGES
 
-Products Section on home page and Products page.
-Copy paste products section from github home page to products page and products section.
+Products Section on home page - Products page.
+Copy paste products section from home page to products page.
 
 Mechanical Products page. No links added. 
 So copy paste enitre page from github to newly exported.
@@ -17,3 +14,23 @@ So copy paste enitre page from github to newly exported.
 =================================================================
 Remove Mobirise comments in starting.
 
+=================================================================
+=================================================================
+LINKS
+==================================================================
+<!-- <div class="col-12 col-md-6 mb-4 col-lg-4"> -->
+
+<span> <a href="XYZ"> 
+
+</a></span>
+
+<!-- </div> -->
+
+MECH 45 HP.html
+MEDIUM 35 HP.html
+MINI 25 HP.html
+HYDRAULIC COMPLETE FABRICATION.html
+Slow Mechanical Products.html
+Hydraulic Shafts.html
+hydraulic accessories.html
+=============================================================
