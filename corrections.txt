@@ -3,34 +3,18 @@ Before : <span class="mbr-iconfont pr-2 mbri-gift"></span>
 after: <span class=""><img src="medal.png"></span>
 
 =================================================================
-REDUNDANT PAGES
 
-Products Section on home page - Products page.
-Copy paste products section from home page to products page.
-
-Mechanical Products page. No links added. 
-So copy paste enitre page from github to newly exported.
 
 =================================================================
 Remove Mobirise comments in starting.
 
 =================================================================
 =================================================================
-LINKS
-==================================================================
-<!-- <div class="col-12 col-md-6 mb-4 col-lg-4"> -->
+Brochure uploaded on developerjay.dndplough
 
-<span> <a href="XYZ"> 
+DIrect download: https://docs.google.com/uc?export=download&id=1ekYYPPak1yN4WnTaELbovhGNpxfhyiP9
+View and download https://drive.google.com/file/d/1ekYYPPak1yN4WnTaELbovhGNpxfhyiP9/view?usp=sharing
 
-</a></span>
 
-<!-- </div> -->
-
-MECH 45 HP.html
-MEDIUM 35 HP.html
-MINI 25 HP.html
-HYDRAULIC COMPLETE FABRICATION.html
-Slow Mechanical Products.html
-Hydraulic Shafts.html
-hydraulic accessories.html
-=============================================================
+===================================================================
+Extensions are in pixmercy drive.
