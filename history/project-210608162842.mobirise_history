@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "DND PLOUGH 2020",
-    "currentPage": "brochure.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -79,7 +79,9 @@
     "imageResize": true,
     "mbrsiteDomain": "b1b7mbadv0",
     "htmltag": "<html>",
-    "witsec-white-label": true
+    "witsec-white-label": true,
+    "publishType": "local",
+    "publishPath": "file:///F:/JAY/MOBIRISE_OUTPUT/MOBI_DNDPLOUGH"
   },
   "pages": {
     "index.html": {
@@ -2509,18 +2511,14 @@
               "display": "none"
             }
           },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
+          "_name": "design-block",
+          "_customHTML": "<section class=\"mbr-section\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
           "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
-          "_global": true,
+          "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "design-block-gy4OQOlZD9"
         }
       ]
     },
@@ -3408,26 +3406,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -4560,26 +4538,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -5604,26 +5562,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -6662,26 +6600,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -7534,26 +7452,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -8294,26 +8192,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -9408,26 +9286,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -10232,26 +10090,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -10894,26 +10732,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -11922,26 +11740,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -13221,26 +13019,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -14112,26 +13890,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -15055,26 +14813,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -16175,26 +15913,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -17161,26 +16879,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -18155,26 +17853,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -19141,26 +18819,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -20135,26 +19793,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -21121,26 +20759,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -22115,26 +21733,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -23101,26 +22699,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -24098,26 +23676,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -25087,26 +24645,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -26084,26 +25622,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -27077,26 +26595,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -28005,26 +27503,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -29002,26 +28480,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -29988,26 +29446,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,
@@ -30982,26 +30420,6 @@
           "_global": true,
           "_once": false,
           "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n[JS_CODE_0]\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
         }
       ]
     },
@@ -31636,26 +31054,6 @@
           "_cid": "rQvDwiIiWM",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
-          "_protectedParams": [],
-          "_global": true,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "alias": false,
-          "_styles": {
-            ".hidden": {
-              "display": "none"
-            }
-          },
-          "_name": "design-block-gy4OQOlZD9-gy4OQOlZD9",
-          "_customHTML": "<section class=\"mbr-section\" global>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <header>Disable mouse right-click</header>     \n                <input type=\"checkbox\" title=\"ON\" name=\"Activate\">\n\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>\n\n<div mbr-class=\"{'hidden': isPublish}\" style=\"padding:1rem; background-color:#c1c1c1;\">\n   <div class=\"align-center\">\n              <br>Disable mouse right-click - This line is not published, it's only for ease of access to the blue gear<br>\n\t\t\t\t\n    </div></div>\n</section>",
-          "_cid": "gy4OQOlZD9",
-          "_anchor": "design-block-gy4OQOlZD9",
-          "_PHPplaceholders": [],
-          "_JSplaceholders": [
-            "<script mbr-if=\"Activate\">\nvar isNS = (navigator.appName == \"Netscape\") ? 1 : 0;\nif(navigator.appName == \"Netscape\") document.captureEvents(Event.MOUSEDOWN||Event.MOUSEUP);\nfunction mischandler(){\nreturn false;\n}\nfunction mousehandler(e){\nvar myevent = (isNS) ? e : event;\nvar eventbutton = (isNS) ? myevent.which : myevent.button;\nif((eventbutton==2)||(eventbutton==3)) return false;\n}\ndocument.oncontextmenu = mischandler;\ndocument.onmousedown = mousehandler;\ndocument.onmouseup = mousehandler;\n</script>"
-          ],
           "_protectedParams": [],
           "_global": true,
           "_once": false,

@@ -79,7 +79,9 @@
     "imageResize": true,
     "mbrsiteDomain": "b1b7mbadv0",
     "htmltag": "<html>",
-    "witsec-white-label": true
+    "witsec-white-label": true,
+    "publishType": "local",
+    "publishPath": "file:///F:/JAY/MOBIRISE_OUTPUT/MOBI_DNDPLOUGH"
   },
   "pages": {
     "index.html": {
